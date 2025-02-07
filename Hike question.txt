@@ -1,0 +1,24 @@
+// pow(base, exponent)
+// pow(2,3) = 8
+
+
+
+class Solution{
+    
+    static void pow(int v,int p)
+    {
+        for(int i=1;i<=p;i++)
+        {
+            v= v*i;
+        }
+        System.out.println(v);
+    }
+    
+    
+    public static void main(String args[])
+    {
+        pow(2, 3);
+    }
+}
+
+
